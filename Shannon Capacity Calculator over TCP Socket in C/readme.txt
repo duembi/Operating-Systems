@@ -5,7 +5,7 @@ Shannon Capacity Calculator over TCP Socket in C
 This project is a simple client-server application developed in C using the POSIX socket API.
 
 Its main purpose is to calculate the Shannon Capacity Limit for a series of network channels:
-C = B \times \log_{2}(1 + S/N)
+C=B×log2​(1+S/N)
 
 ⚙️ Architecture & How It Works
 The project consists of two independent programs:

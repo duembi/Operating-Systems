@@ -1,6 +1,7 @@
 Shannon Capacity Calculator over TCP Socket in C
 
 
+
 🧠 Overview
 This project is a simple client-server application developed in C using the POSIX socket API.
 

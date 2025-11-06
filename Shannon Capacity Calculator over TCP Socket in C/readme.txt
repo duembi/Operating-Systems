@@ -9,13 +9,13 @@ C=B×log2​(1+S/N)
 ⚙️ Architecture & How It Works
 The project consists of two independent programs:
 
-**Server (server)**
+Server (server)
 * Listens on a specified TCP port and accepts incoming connections.
 * Receives Bandwidth (B) and Signal-to-Noise Ratio (S/N) values from the client.
 * Calculates the channel capacity (C) using the Shannon formula.
 * Sends the calculated result back to the client.
 
-**Client (client)**
+Client (client)
 * Establishes a TCP connection to the server.
 * Reads B and S/N values line by line from standard input (`stdin`) — typically redirected from a file (`<`).
 * Sends this data to the server.
